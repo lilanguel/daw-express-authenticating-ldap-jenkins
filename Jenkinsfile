@@ -18,7 +18,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh './spec/test.js'
+        sh 'npm test'
       }
     }
 
